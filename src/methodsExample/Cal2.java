@@ -1,4 +1,4 @@
-package methods;
+package methodsExample;
 
 public class Cal2 {
 	

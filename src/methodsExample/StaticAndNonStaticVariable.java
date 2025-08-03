@@ -1,4 +1,4 @@
-package methodExample;
+package methodsExample;
 
 public class StaticAndNonStaticVariable {
 	
