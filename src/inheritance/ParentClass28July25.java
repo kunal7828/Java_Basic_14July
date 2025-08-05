@@ -1,6 +1,6 @@
 package inheritance;
 
-public class ParentClass extends GrandParent{
+public class ParentClass28July25 extends GrandParent28July25{
 	
 	
 	public void show()

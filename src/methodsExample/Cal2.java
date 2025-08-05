@@ -8,7 +8,7 @@ public class Cal2 {
 	static int res2=30;
 	
 	
-	public void add(int fv, int sv) // instance method
+	public int add(int fv, int sv) // instance method
 	
 	{
 		
@@ -25,3 +25,24 @@ public class Cal2 {
 	}
 
 }
+
+/*
+
+✅ How to fix it:
+1️⃣ Option A: Change method to return int
+
+public int add(int fv, int sv) { // method returns int
+    int result = fv + sv;       
+    return result; // returning int is now valid
+}
+2️⃣ Option B: Keep it void and print or use the result
+
+public void add(int fv, int sv) { // method returns nothing
+    int result = fv + sv;       
+    System.out.println("Sum is: " + result); // or do something else
+    // No return statement needed in void method
+}
+
+
+
+*/

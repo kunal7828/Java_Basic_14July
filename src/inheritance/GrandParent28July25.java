@@ -1,6 +1,6 @@
 package inheritance;
 
-public class GrandParent {
+public class GrandParent28July25 {
 	
 	public void circle() {
 		System.out.println("Its a grandParent class method");

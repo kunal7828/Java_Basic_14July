@@ -1,6 +1,6 @@
 package inheritance;
 
-public class ChildClass extends ParentClass{
+public class ChildClass28July25 extends ParentClass28July25{
 	
 	public void display()
 	{
@@ -8,7 +8,7 @@ public class ChildClass extends ParentClass{
 	}
 
 	public static void main(String[] args) {
-	ChildClass childClass=new ChildClass();
+	ChildClass28July25 childClass=new ChildClass28July25();
 	childClass.display();
 	//ParentClass parentClass=new ParentClass();
 	//parentClass.show();

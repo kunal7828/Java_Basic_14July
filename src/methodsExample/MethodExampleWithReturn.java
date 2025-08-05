@@ -1,5 +1,7 @@
 package methodsExample;
 
+import org.openqa.selenium.WebElement;
+
 public class MethodExampleWithReturn {
 	
 	static String name="MAP Quality Solutions";
@@ -18,12 +20,14 @@ public class MethodExampleWithReturn {
 		int result=i+j;
 		return result;
 	}
-	
+/*	
 	public boolean validateHomePage()
 	{
-		boolean flag= webElement.isDisplayed();
-		return flag;
+		boolean flag= WebElement.isDisplayed();
+	return flag;
 	}
+	
+	*/
 	
 	public static void main(String[] args) {
 	 String companyName=	MethodExampleWithReturn.getName();
